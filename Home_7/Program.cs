@@ -11,7 +11,7 @@ namespace Home.Net_09_02
     {
         static void Compare(int a, int b, string symb)
         {
-            string[] mass = new string[] { "<", ">", ">=", "<=", "==", "!=" }; int count = 0;
+            string[] mass = new string[] { ">", "<", "<=", ">=", "!=", "==" }; int count = 0;
             try
             {
                 for (int i = 0; i < mass.Length; i++)
